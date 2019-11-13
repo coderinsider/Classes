@@ -1,3 +1,4 @@
+
 console.info('Hello, there is some information for you');
 class Car {
 	constructor(doors, engine, color) {
@@ -14,3 +15,9 @@ class Car {
 const cx5 = new Car(4, 'V6', 'red');
 console.log(cx5);
 console.log(cx5.carStats());
+
+// There is hoisting explain
+function sayHi() {
+	console.log('Hello this function can be called anywhere!');
+}
+sayHi();
